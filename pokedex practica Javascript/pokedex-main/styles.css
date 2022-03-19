@@ -1,0 +1,172 @@
+form {
+    width: 270px;
+    position: relative;
+    top: 485px;
+    left: 45px;
+}
+
+input {
+    width: 90%;
+    padding: 9px;
+    text-align: center;
+    font-size: large;
+    box-shadow: 3px 3px;
+}
+
+.poke-card {
+    position: absolute;
+    height: fit-content;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 300px;
+    top: 0%;
+    font-size: 30px;
+    border-radius: 4px;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: rgb(210, 188, 212);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+/* .poke-card::before {
+    content: '';
+    background: radial-gradient(rgb(53, 82, 145) 33%, transparent 83%);
+    background-size: 3px 3px;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: -1;
+} */
+
+ .img-container {
+    position: relative;
+    width: 180px;
+    margin: 10px auto;
+} 
+
+/* * */
+
+ .poke-types div {
+
+    margin: 0px;
+    border-radius: 4px;
+    border: 1px dashed black;
+} 
+
+.poke-stats div {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 1px;
+    font-size: 18px;
+} 
+
+.pokeimg {
+    text-align: center;
+    width: 120px;
+    border-radius: 50%;
+}
+
+.white {
+    background-color: white;
+    width: 96px;
+    height: 42px;
+    padding: 100px;
+    position: absolute;
+    top: 129px;
+    right: 155px;
+}
+
+
+.poke-img {
+    width: 80%;
+    position: absolute;
+    top: 200px;
+    right: 230px;
+    border-radius: 50%;
+}
+
+/* 
+.pokedex {
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+  
+    font-size: 30px;
+    border-radius: 4px;
+    color: #000;
+    top: 0%;
+    text-align: center;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+
+} */
+
+.pokedex {
+display: inline-table; 
+position: absolute;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+text-align: center;
+}
+
+
+
+/* .pokedex::before {
+    content: '';
+    background: radial-gradient(rgb(7, 0, 2) 33%, transparent 33%);
+    background-size: 3px 3px;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 14px;
+    z-index: -1;
+} */
+
+.contenedor {
+    position: relative;
+}
+
+.data-container {
+    
+
+    position: relative;
+    width: 180px;
+    margin: 10px auto;
+}
+
+.white2 {
+    background-color: rgb(170, 170, 170);
+    color: black;
+    text-align: center;
+    font-size: 10px;
+    width:300px;
+    height: 250px;
+ 
+    position: absolute;
+    top: 154px;
+    left:1010px;
+}
+
+.backred {
+    position: absolute;
+    width: 272px;
+    height: 50px;
+    z-index: 15;
+    top: 580px;
+    left: 60%;
+    margin: -100px 0 0 -150px;
+    background: rgba(255, 0, 0, 0.945);
+}
+
+.logo img{
+    position: absolute;
+    width: 10%;
+    left: 45%;
+}
